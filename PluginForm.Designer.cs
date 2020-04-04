@@ -224,9 +224,8 @@
             this.labelMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelMessage.Location = new System.Drawing.Point(13, 237);
             this.labelMessage.Name = "labelMessage";
-            this.labelMessage.Size = new System.Drawing.Size(146, 25);
+            this.labelMessage.Size = new System.Drawing.Size(0, 25);
             this.labelMessage.TabIndex = 15;
-            this.labelMessage.Text = "labelMessage";
             this.labelMessage.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // PluginForm
@@ -252,7 +251,7 @@
             this.Controls.Add(this.label1);
             this.Name = "PluginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PluginForm";
+            this.Text = "Monoconf Test Plugin";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PluginForm_FormClosing);
             this.Load += new System.EventHandler(this.PluginForm_Load);
